@@ -1,0 +1,22 @@
+{
+  "name": "vote-tensingers",
+  "version": "1.0.0",
+  "description": "学生会十大歌手投票",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedrockTeam/Vote-TenSingers.git"
+  },
+  "keywords": [
+    "vote"
+  ],
+  "author": "GiantMing",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/RedrockTeam/Vote-TenSingers/issues"
+  },
+  "homepage": "https://github.com/RedrockTeam/Vote-TenSingers#readme"
+}
