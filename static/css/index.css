@@ -45,9 +45,7 @@ footer {
     width: 100%;
     text-align: center;
 }
-.heart {
-  cursor: pointer;
-}
+
 @font-face {
     font-family: "iconfont";
     src: url('iconfont.eot?t=1458823435'); /* IE9*/
@@ -65,7 +63,13 @@ footer {
     -moz-osx-font-smoothing: grayscale;
 }
 .thumb {
-    margin-left: 8em;    
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    width: 100px;
+    height: 8px;
+    margin-right: -80px;
+    margin-left: 5em;    
     font-size:25px;
     line-height: 0;
     color: #ccc;
@@ -83,7 +87,7 @@ footer {
     right: 15px;
 }
 .thumb_num {
-    margin-left: 10px;
+    margin-right: 10px;
 }
 .thumb_clicked {
     color: #f55;
