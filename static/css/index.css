@@ -41,6 +41,7 @@ body {
     padding-top: 0;
 }
 footer {
+    margin-top: 2.5em;
     margin-bottom: 5em;
     width: 100%;
     text-align: center;
@@ -62,14 +63,22 @@ footer {
     -webkit-text-stroke-width: 0.2px;
     -moz-osx-font-smoothing: grayscale;
 }
+.song_list {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #e5e5e5;
+}
+.song_list .weui_media_box.weui_media_appmsg .weui_media_hd {
+    width: 70px;
+    height: 70px;
+}
+.singer {
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
 .thumb {
     position: relative;
     top: 2px;
-    display: inline-block;
-    width: 100px;
-    height: 8px;
-    margin-right: -80px;
-    margin-left: 5em;    
     font-size:25px;
     line-height: 0;
     color: #ccc;
@@ -82,14 +91,16 @@ footer {
     font-size: 16px;
     border-radius: 5px;
 }
-.right {
-    position: absolute;
-    right: 15px;
-}
 .thumb_num {
     margin-right: 10px;
 }
 .thumb_clicked {
     color: #f55;
+}
+.thumb_wrap {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 150px;
 }
 
