@@ -30,13 +30,13 @@ body {
     display: block;
     width: 100%;
 }
-.song-list-wrap .weui_media_desc{
+.song_list_wrap .weui_media_desc{
     color: #555;
     font-size:15px;
 }
-.song-list-wrap {
+.song_list_wrap {
 }
-.song-list-wrap .weui_cell {
+.song_list_wrap .weui_cell {
     padding-bottom: 0;
     padding-top: 0;
 }
